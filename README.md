@@ -57,32 +57,6 @@ PrivacyPy can be used in various data science scenarios, including:
 - User authentication systems
 - Research collaborations with external parties
 
-## Example Usage
-
-```python
-from PrivacyPy import DataPrivacyFramework
-
-# Initialize PrivacyPy with encryption key
-encryption_key = "your_encryption_key"
-privacy_framework = DataPrivacyFramework(encryption_key)
-
-# Load sample data
-data = {
-    'ID': [101, 102, 103],
-    'Name': ['John Doe', 'Jane Smith', 'Alice Johnson'],
-    'Email': ['john.doe@example.com', 'jane.smith@example.com', 'alice.johnson@example.com'],
-    'Phone': ['123-456-7890', '456-789-0123', '789-012-3456'],
-    'Income': ['2000', '4000', '6000']
-}
-
-# Anonymize sensitive columns (Name, Email)
-anonymized_df = privacy_framework.anonymize_data(data, ['Name', 'Email'])
-
-# Encrypt entire DataFrame
-encrypted_df = privacy_framework.encrypt_data(anonymized_df)
-print("Encrypted DataFrame:")
-print(encrypted_df)
-```
 
 ## Invitation for Contribution
 
