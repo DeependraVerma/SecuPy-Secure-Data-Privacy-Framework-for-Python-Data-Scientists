@@ -1,6 +1,6 @@
-# PrivacyPy: Secure Data Privacy Framework for Python Data Scientists
+# SheildPy: Secure Data Privacy Framework for Python Data Scientists
 
-PrivacyPy is an all-in-one Python package designed to address data privacy and security concerns for data scientists. Developed by Deependra Verma, PrivacyPy offers robust encryption, anonymization, and access control tools, ensuring the confidentiality and integrity of sensitive data.
+SheildPy is an all-in-one Python package designed to address data privacy and security concerns for data scientists. Developed by Deependra Verma, SheildPy offers robust encryption, anonymization, and access control tools, ensuring the confidentiality and integrity of sensitive data.
 
 ## Contact Information
 - **Name:** Deependra Verma
@@ -11,10 +11,10 @@ PrivacyPy is an all-in-one Python package designed to address data privacy and s
 
 ## Installation
 
-You can install PrivacyPy via pip:
+You can install SheildPy via pip:
 
 ```bash
-pip install PrivacyPy
+pip install SheildPy
 ```
 
 Alternatively, you can clone the GitHub repository:
@@ -27,14 +27,14 @@ python setup.py install
 
 ## Dependencies
 
-PrivacyPy relies on the following dependencies:
+SheildPy relies on the following dependencies:
 - `pandas>=1.0.0`
 - `faker>=8.0.0`
 - `cryptography>=3.0`
 
 ## Methods
 
-PrivacyPy provides the following key methods:
+SheildPy provides the following key methods:
 - `encrypt_data(data)`: Encrypts sensitive data to ensure confidentiality.
 - `decrypt_data(encrypted_data)`: Decrypts encrypted data to its original form.
 - `anonymize_data(data, columns_to_anonymize)`: Anonymizes specific columns in a DataFrame.
@@ -43,7 +43,7 @@ PrivacyPy provides the following key methods:
 
 ## Users Benefit
 
-PrivacyPy empowers data scientists with the following benefits:
+SheildPy empowers data scientists with the following benefits:
 - **Data Confidentiality:** Encrypt sensitive data to prevent unauthorized access.
 - **Anonymization:** Anonymize personally identifiable information for privacy protection.
 - **Access Control:** Control data access based on user roles and permissions.
@@ -51,7 +51,7 @@ PrivacyPy empowers data scientists with the following benefits:
 
 ## Use Cases
 
-PrivacyPy can be used in various data science scenarios, including:
+SheildPy can be used in various data science scenarios, including:
 - Healthcare data analysis
 - Financial data processing
 - User authentication systems
@@ -60,7 +60,7 @@ PrivacyPy can be used in various data science scenarios, including:
 
 ## Invitation for Contribution
 
-Contributions to PrivacyPy are welcome! To contribute, follow these steps:
+Contributions to SheildPy are welcome! To contribute, follow these steps:
 1. Fork the repository on GitHub.
 2. Clone the forked repository to your local machine.
 3. Create a new branch for your changes.
@@ -69,4 +69,4 @@ Contributions to PrivacyPy are welcome! To contribute, follow these steps:
 6. Commit your changes and push them to your forked repository.
 7. Submit a pull request to the original repository.
 
-Let's collaborate to make PrivacyPy the go-to solution for secure data privacy in the Python data science community.
+Let's collaborate to make SheildPy the go-to solution for secure data privacy in the Python data science community.

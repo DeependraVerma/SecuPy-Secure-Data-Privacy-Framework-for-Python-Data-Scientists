@@ -15,9 +15,9 @@ def get_requirements(file_path:str)-> List[str]:
             requirements.remove(HYPEN_E_DOT)
     return requirements
 
-__version__ = "0.0.1"
+__version__ = "0.0.7"
 REPO_NAME = "SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists"
-PKG_NAME= "PrivacyPy"
+PKG_NAME= "SheildPy"
 AUTHOR_USER_NAME = "DeependraVerma"
 AUTHOR_EMAIL = "deependra.verma00@gmail.com"
 
@@ -26,7 +26,7 @@ setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="Protect sensitive data with PrivacyPy, a Python package offering encryption, anonymization, and compliance tools for data scientists.",
+    description="Protect sensitive data with SheildPy, a Python package offering encryption, anonymization, and compliance tools for data scientists.",
     long_description=long_description,
     long_description_content="text/x-rst",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",

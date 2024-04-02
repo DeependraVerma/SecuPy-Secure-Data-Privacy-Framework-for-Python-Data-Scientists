@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-package_name = "SecuPy"
+package_name = "SheildPy"
 
 list_of_files = [
    ".github/workflows/ci.yaml",
