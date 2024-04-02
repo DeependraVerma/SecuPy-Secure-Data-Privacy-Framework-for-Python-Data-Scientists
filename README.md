@@ -1,6 +1,6 @@
 # PrivacyPy: Secure Data Privacy Framework for Python Data Scientists
 
-PrivacyPy is a comprehensive Python package designed to address the data privacy and security concerns of data scientists. Built by Deependra Verma, a passionate data science professional, PrivacyPy offers powerful tools for encryption, anonymization, and access control, ensuring the confidentiality and integrity of sensitive data.
+PrivacyPy is an all-in-one Python package designed to address data privacy and security concerns for data scientists. Developed by Deependra Verma, PrivacyPy offers robust encryption, anonymization, and access control tools, ensuring the confidentiality and integrity of sensitive data.
 
 ## Contact Information
 - **Name:** Deependra Verma
@@ -96,3 +96,4 @@ Contributions to PrivacyPy are welcome! To contribute, follow these steps:
 7. Submit a pull request to the original repository.
 
 Let's collaborate to make PrivacyPy the go-to solution for secure data privacy in the Python data science community.
+```
