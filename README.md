@@ -59,7 +59,7 @@ PrivacyPy can be used in various data science scenarios, including:
 
 ## Example Usage
 
-```
+```python
 from PrivacyPy import DataPrivacyFramework
 
 # Initialize PrivacyPy with encryption key
