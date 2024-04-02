@@ -96,4 +96,3 @@ Contributions to PrivacyPy are welcome! To contribute, follow these steps:
 7. Submit a pull request to the original repository.
 
 Let's collaborate to make PrivacyPy the go-to solution for secure data privacy in the Python data science community.
-```
