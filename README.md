@@ -20,7 +20,7 @@ SheildPy: Your all-in-one Python package for robust data privacy and security. E
 
 ## Installation
 
-To install XplainML, simply run:
+To install SheildPy, simply run:
 
 ```bash
 pip install SheildPy
@@ -43,7 +43,7 @@ SheildPy relies on the following dependencies:
 
 ## Usage
 
-```python
+```bash
 from PrivacyPy import DataPrivacyFramework
 
 # Initialize PrivacyPy with encryption key
@@ -96,7 +96,7 @@ Contributions to SheildPy are welcome! To contribute, follow these steps:
 6. Commit your changes and push them to your forked repository.
 7. Submit a pull request to the original repository.
 
-We welcome contributions from the community! Whether it's fixing bugs, adding new features, or improving documentation, your contributions help make XplainML better for everyone. Check out our [Contributing Guidelines](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/CONTRIBUTING.md) to get started.
+We welcome contributions from the community! Whether it's fixing bugs, adding new features, or improving documentation, your contributions help make XplainML better for everyone. Check out our [Contributing Guidelines](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/wiki) to get started.
 
 ## License
 
