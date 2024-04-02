@@ -15,7 +15,7 @@ def get_requirements(file_path:str)-> List[str]:
             requirements.remove(HYPEN_E_DOT)
     return requirements
 
-__version__ = "0.0.7"
+__version__ = "0.0.8"
 REPO_NAME = "SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists"
 PKG_NAME= "SheildPy"
 AUTHOR_USER_NAME = "DeependraVerma"

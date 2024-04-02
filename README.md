@@ -1,17 +1,26 @@
 # SheildPy: Secure Data Privacy Framework for Python Data Scientists
 
-SheildPy is an all-in-one Python package designed to address data privacy and security concerns for data scientists. Developed by Deependra Verma, SheildPy offers robust encryption, anonymization, and access control tools, ensuring the confidentiality and integrity of sensitive data.
+[![GitHub stars](https://img.shields.io/github/stars/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists.svg)](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/stargazers)
+[![GitHub license](https://img.shields.io/github/license/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists.svg)](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE)
 
-## Contact Information
-- **Name:** Deependra Verma
-- **Email:** deependra.verma00@gmail.com
-- **LinkedIn:** [Deependra Verma](https://www.linkedin.com/in/deependra-verma-data-science/)
-- **GitHub Profile:** [DeependraVerma](https://github.com/DeependraVerma)
-- **Portfolio:** [Deependra's Portfolio](https://deependradatascience-productportfolio.netlify.app/)
+SheildPy is an all-in-one Python package designed to address data privacy and security concerns for data scientists. Developed by [Deependra Verma](https://www.linkedin.com/in/deependra-verma-data-science/), SheildPy offers robust encryption, anonymization, and access control tools, ensuring the confidentiality and integrity of sensitive data.
+
+## Introduction
+
+SheildPy: Your all-in-one Python package for robust data privacy and security. Encrypt, anonymize, and control access to sensitive data effortlessly.
+
+## Features
+
+### SheildPy provides the following key methods:
+- `encrypt_data(data)`: Encrypts sensitive data to ensure confidentiality.
+- `decrypt_data(encrypted_data)`: Decrypts encrypted data to its original form.
+- `anonymize_data(data, columns_to_anonymize)`: Anonymizes specific columns in a DataFrame.
+- `add_role(role_name, permissions)`: Adds a new role with associated permissions to the access control system.
+- `check_permission(role_name, permission)`: Checks if a role has the specified permission.
 
 ## Installation
 
-You can install SheildPy via pip:
+To install XplainML, simply run:
 
 ```bash
 pip install SheildPy
@@ -32,14 +41,32 @@ SheildPy relies on the following dependencies:
 - `faker>=8.0.0`
 - `cryptography>=3.0`
 
-## Methods
+## Usage
 
-SheildPy provides the following key methods:
-- `encrypt_data(data)`: Encrypts sensitive data to ensure confidentiality.
-- `decrypt_data(encrypted_data)`: Decrypts encrypted data to its original form.
-- `anonymize_data(data, columns_to_anonymize)`: Anonymizes specific columns in a DataFrame.
-- `add_role(role_name, permissions)`: Adds a new role with associated permissions to the access control system.
-- `check_permission(role_name, permission)`: Checks if a role has the specified permission.
+```python
+from PrivacyPy import DataPrivacyFramework
+
+# Initialize PrivacyPy with encryption key
+encryption_key = "your_encryption_key"
+privacy_framework = DataPrivacyFramework(encryption_key)
+
+# Load sample data
+data = {
+    'ID': [101, 102, 103],
+    'Name': ['John Doe', 'Jane Smith', 'Alice Johnson'],
+    'Email': ['john.doe@example.com', 'jane.smith@example.com', 'alice.johnson@example.com'],
+    'Phone': ['123-456-7890', '456-789-0123', '789-012-3456'],
+    'Income': ['2000', '4000', '6000']
+}
+
+# Anonymize sensitive columns (Name, Email)
+anonymized_df = privacy_framework.anonymize_data(data, ['Name', 'Email'])
+
+# Encrypt entire DataFrame
+encrypted_df = privacy_framework.encrypt_data(anonymized_df)
+print("Encrypted DataFrame:")
+print(encrypted_df)
+```
 
 ## Users Benefit
 
@@ -69,4 +96,15 @@ Contributions to SheildPy are welcome! To contribute, follow these steps:
 6. Commit your changes and push them to your forked repository.
 7. Submit a pull request to the original repository.
 
-Let's collaborate to make SheildPy the go-to solution for secure data privacy in the Python data science community.
+We welcome contributions from the community! Whether it's fixing bugs, adding new features, or improving documentation, your contributions help make XplainML better for everyone. Check out our [Contributing Guidelines](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/CONTRIBUTING.md) to get started.
+
+## License
+
+SheildPy is licensed under the [MIT License](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE). See the [LICENSE](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE) file for details.
+
+## About the Author
+
+**Deependra Verma**  
+*Data Scientist*  
+[Email](mailto:deependra.verma00@gmail.com) | [LinkedIn](https://www.linkedin.com/in/deependra-verma-data-science/) | [GitHub](https://github.com/DeependraVerma) | [Portfolio](https://deependradatascience-productportfolio.netlify.app/)
+```
