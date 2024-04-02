@@ -67,7 +67,7 @@ anonymized_df = privacy_framework.anonymize_data(data, ['Name', 'Email'])
 encrypted_df = privacy_framework.encrypt_data(anonymized_df)
 print("Encrypted DataFrame:")
 print(encrypted_df)
-```
+
 
 ## Users Benefit
 
