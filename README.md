@@ -43,7 +43,7 @@ SheildPy relies on the following dependencies:
 
 ## Usage
 
-```bash
+
 # Import the package
 from PrivacyPy import DataPrivacyFramework
 
