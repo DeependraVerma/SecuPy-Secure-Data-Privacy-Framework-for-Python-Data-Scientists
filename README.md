@@ -96,7 +96,6 @@ SheildPy is licensed under the [MIT License](https://github.com/DeependraVerma/S
 
 ## About the Author
 
-**Deependra Verma**  
-*Data Scientist*  
+- **Deependra Verma**  
+- *Data Scientist*  
 [Email](mailto:deependra.verma00@gmail.com) | [LinkedIn](https://www.linkedin.com/in/deependra-verma-data-science/) | [GitHub](https://github.com/DeependraVerma) | [Portfolio](https://deependradatascience-productportfolio.netlify.app/)
-```
