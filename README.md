@@ -51,15 +51,6 @@ from PrivacyPy import DataPrivacyFramework
 encryption_key = "your_encryption_key"
 privacy_framework = DataPrivacyFramework(encryption_key)
 
-# Load sample data
-data = {
-    'ID': [101, 102, 103],
-    'Name': ['John Doe', 'Jane Smith', 'Alice Johnson'],
-    'Email': ['john.doe@example.com', 'jane.smith@example.com', 'alice.johnson@example.com'],
-    'Phone': ['123-456-7890', '456-789-0123', '789-012-3456'],
-    'Income': ['2000', '4000', '6000']
-}
-
 # Anonymize sensitive columns (Name, Email)
 anonymized_df = privacy_framework.anonymize_data(data, ['Name', 'Email'])
 
