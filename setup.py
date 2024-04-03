@@ -17,7 +17,7 @@ def get_requirements(file_path:str)-> List[str]:
 
 __version__ = "0.0.8"
 REPO_NAME = "SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists"
-PKG_NAME= "SheildPy"
+PKG_NAME= "secure-learn"
 AUTHOR_USER_NAME = "DeependraVerma"
 AUTHOR_EMAIL = "deependra.verma00@gmail.com"
 

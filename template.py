@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-package_name = "SheildPy"
+package_name = "secure-learn"
 
 list_of_files = [
    ".github/workflows/ci.yaml",
