@@ -1,17 +1,17 @@
-# SheildPy: Secure Data Privacy Framework for Python Data Scientists
+# secure-learn: Secure Data Privacy Framework for Python Data Scientists
 
 [![GitHub stars](https://img.shields.io/github/stars/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists.svg)](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/stargazers)
 [![GitHub license](https://img.shields.io/github/license/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists.svg)](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE)
 
-SheildPy is an all-in-one Python package designed to address data privacy and security concerns for data scientists. Developed by [Deependra Verma](https://www.linkedin.com/in/deependra-verma-data-science/), SheildPy offers robust encryption, anonymization, and access control tools, ensuring the confidentiality and integrity of sensitive data.
+secure-learn is an all-in-one Python package designed to address data privacy and security concerns for data scientists. Developed by [Deependra Verma](https://www.linkedin.com/in/deependra-verma-data-science/), secure-learn offers robust encryption, anonymization, and access control tools, ensuring the confidentiality and integrity of sensitive data.
 
 ## Introduction
 
-SheildPy: Your all-in-one Python package for robust data privacy and security. Encrypt, anonymize, and control access to sensitive data effortlessly.
+secure-learn: Your all-in-one Python package for robust data privacy and security. Encrypt, anonymize, and control access to sensitive data effortlessly.
 
 ## Features
 
-### SheildPy provides the following key methods:
+### secure-learn provides the following key methods:
 - `encrypt_data(data)`: Encrypts sensitive data to ensure confidentiality.
 - `decrypt_data(encrypted_data)`: Decrypts encrypted data to its original form.
 - `anonymize_data(data, columns_to_anonymize)`: Anonymizes specific columns in a DataFrame.
@@ -20,10 +20,10 @@ SheildPy: Your all-in-one Python package for robust data privacy and security. E
 
 ## Installation
 
-To install SheildPy, simply run:
+To install secure-learn, simply run:
 
 ```bash
-pip install SheildPy
+pip install secure-learn
 ```
 
 Alternatively, you can clone the GitHub repository:
@@ -36,7 +36,7 @@ python setup.py install
 
 ## Dependencies
 
-SheildPy relies on the following dependencies:
+secure-learn relies on the following dependencies:
 - `pandas>=1.0.0`
 - `faker>=8.0.0`
 - `cryptography>=3.0`
@@ -62,7 +62,7 @@ print(encrypted_df)
 
 ## Users Benefit
 
-SheildPy empowers data scientists with the following benefits:
+secure-learn empowers data scientists with the following benefits:
 - **Data Confidentiality:** Encrypt sensitive data to prevent unauthorized access.
 - **Anonymization:** Anonymize personally identifiable information for privacy protection.
 - **Access Control:** Control data access based on user roles and permissions.
@@ -70,7 +70,7 @@ SheildPy empowers data scientists with the following benefits:
 
 ## Use Cases
 
-SheildPy can be used in various data science scenarios, including:
+secure-learn can be used in various data science scenarios, including:
 - Healthcare data analysis
 - Financial data processing
 - User authentication systems
@@ -79,7 +79,7 @@ SheildPy can be used in various data science scenarios, including:
 
 ## Invitation for Contribution
 
-Contributions to SheildPy are welcome! To contribute, follow these steps:
+Contributions to secure-learn are welcome! To contribute, follow these steps:
 1. Fork the repository on GitHub.
 2. Clone the forked repository to your local machine.
 3. Create a new branch for your changes.
@@ -92,7 +92,7 @@ We welcome contributions from the community! Whether it's fixing bugs, adding ne
 
 ## License
 
-SheildPy is licensed under the [MIT License](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE). See the [LICENSE](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE) file for details.
+secure-learn is licensed under the [MIT License](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE). See the [LICENSE](https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE) file for details.
 
 ## About the Author
 
