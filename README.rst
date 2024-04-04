@@ -1,4 +1,4 @@
-secure-learn: Secure Data Privacy Framework for Python Data Scientists
+securedf: Secure Data Privacy Framework for Python Data Scientists
 ======================================================================
 
 .. image:: https://img.shields.io/github/stars/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists.svg
@@ -7,17 +7,17 @@ secure-learn: Secure Data Privacy Framework for Python Data Scientists
 .. image:: https://img.shields.io/github/license/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists.svg
     :target: https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE
 
-secure-learn is an all-in-one Python package designed to address data privacy and security concerns for data scientists. Developed by `Deependra Verma <https://www.linkedin.com/in/deependra-verma-data-science/>`__, secure-learn offers robust encryption, anonymization, and access control tools, ensuring the confidentiality and integrity of sensitive data.
+securedf is an all-in-one Python package designed to address data privacy and security concerns for data scientists. Developed by `Deependra Verma <https://www.linkedin.com/in/deependra-verma-data-science/>`__, secure-learn offers robust encryption, anonymization, and access control tools, ensuring the confidentiality and integrity of sensitive data.
 
 Introduction
 ------------
 
-secure-learn: Your all-in-one Python package for robust data privacy and security. Encrypt, anonymize, and control access to sensitive data effortlessly.
+securedf: Your all-in-one Python package for robust data privacy and security. Encrypt, anonymize, and control access to sensitive data effortlessly.
 
 Features
 --------
 
-secure-learn provides the following key methods:
+securedf provides the following key methods:
 
 - ``encrypt_data(data)``: Encrypts sensitive data to ensure confidentiality.
 - ``decrypt_data(encrypted_data)``: Decrypts encrypted data to its original form.
@@ -28,11 +28,11 @@ secure-learn provides the following key methods:
 Installation
 ------------
 
-To install secure-learn, simply run:
+To install securedf, simply run:
 
 .. code-block:: bash
 
-    pip install secure-learn
+    pip install securedf
 
 Alternatively, you can clone the GitHub repository:
 
@@ -45,7 +45,7 @@ Alternatively, you can clone the GitHub repository:
 Dependencies
 ------------
 
-secure-learn relies on the following dependencies:
+securedf relies on the following dependencies:
 
 - ``pandas>=1.0.0``
 - ``faker>=8.0.0``
@@ -84,7 +84,7 @@ Encrypt entire DataFrame:
 Users Benefit
 -------------
 
-secure-learn empowers data scientists with the following benefits:
+securedf empowers data scientists with the following benefits:
 
 - **Data Confidentiality:** Encrypt sensitive data to prevent unauthorized access.
 - **Anonymization:** Anonymize personally identifiable information for privacy protection.
@@ -94,7 +94,7 @@ secure-learn empowers data scientists with the following benefits:
 Use Cases
 ---------
 
-secure-learn can be used in various data science scenarios, including:
+securedf can be used in various data science scenarios, including:
 
 - Healthcare data analysis
 - Financial data processing
@@ -104,7 +104,7 @@ secure-learn can be used in various data science scenarios, including:
 Invitation for Contribution
 ---------------------------
 
-Contributions to secure-learn are welcome! To contribute, follow these steps:
+Contributions to securedf are welcome! To contribute, follow these steps:
 
 1. Fork the repository on GitHub.
 2. Clone the forked repository to your local machine.
@@ -119,7 +119,7 @@ We welcome contributions from the community! Whether it's fixing bugs, adding ne
 License
 -------
 
-secure-learn is licensed under the `MIT License <https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE>`__. See the `LICENSE <https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE>`__ file for details.
+securedf is licensed under the `MIT License <https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE>`__. See the `LICENSE <https://github.com/DeependraVerma/SecuPy-Secure-Data-Privacy-Framework-for-Python-Data-Scientists/blob/main/LICENSE>`__ file for details.
 
 About the Author
 ----------------
