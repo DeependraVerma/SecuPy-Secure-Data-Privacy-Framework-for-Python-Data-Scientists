@@ -124,6 +124,4 @@ secure-learn is licensed under the `MIT License <https://github.com/DeependraVer
 About the Author
 ----------------
 
-.. raw:: html
-
-    <a href="mailto:deependra.verma00@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/deependra-verma-data-science/">LinkedIn</a> | <a href="https://github.com/DeependraVerma">GitHub</a> | <a href="https://deependradatascience-productportfolio.netlify.app/">Portfolio</a>
+`Email <mailto:deependra.verma00@gmail.com>`__ | `LinkedIn <https://www.linkedin.com/in/deependra-verma-data-science/>`__ | `GitHub <https://github.com/DeependraVerma>`__ | `Portfolio <https://deependradatascience-productportfolio.netlify.app/>`__

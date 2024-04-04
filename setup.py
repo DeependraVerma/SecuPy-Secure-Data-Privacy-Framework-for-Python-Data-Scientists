@@ -35,5 +35,10 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    install_requires = ["pandas", "faker","cryptography"]
+    install_requires = ["pandas", "faker","cryptography"],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
     )
